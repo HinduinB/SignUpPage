@@ -1,0 +1,169 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ 
+    font-family: 'Montserrat', sans-serif;
+   
+
+}
+
+.content {
+    display: flex;
+   
+   
+}
+
+
+/* Left Side items*/
+
+.left-side {
+
+    width: 40vw;
+    height: 100vh;
+    background-image: url(./images/alessio-furlan-Vw3a0HgE7AM-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.midBackground {
+    
+    
+    height: 150px;
+    width: 40vw;
+    background-color: rgba(0, 0, 0, 0.727);
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+
+ 
+
+}
+
+.logo img {
+    width: 10rem;
+    padding: 10px;
+    
+}
+
+.title {
+color: white;
+   
+   
+}
+
+.right-side {
+    width: 60vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+
+p {
+    /* font-weight: bold; */
+    font-size: 1.6rem;
+}
+
+.description {
+    margin: 0px 20px 20px 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.form-container{
+    height: 80vh;
+    width: 60vw;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.main-form {
+    display: flex;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.form-example {
+    
+    
+    width: 30vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+input {
+    width: 15rem;
+    margin: 5px 20px 20px 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(224, 224, 224);
+    font-size: .9rem;
+    
+    
+}
+
+label { 
+    display: block;
+    margin: 0px 20px 0px 20px;
+    width: 15rem;
+    font-size: 1.5rem;    
+}
+
+.form-container h1 {
+    margin: 0px 0px 20px 160px;
+    font-size: 2rem 
+
+   
+}
+
+.submit-section {
+    display: flex;
+    justify-content: center;
+
+}
+
+button[type='submit'] {
+    padding: .8rem 1.3rem;
+    font-size: 1.3rem;
+    background-color: rgb(173, 73, 173);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    letter-spacing: -1px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.253);
+margin-top: 20px;
+    text-align: center;
+  }
+
+
+  button[type='submit']:hover {
+    background-color: rgb(126, 39, 126);
+  }
+
+  .error-message {
+    color: red;
+    font-size: 1rem;
+    margin: 20px;
+    text-align: center;
+
+  }
